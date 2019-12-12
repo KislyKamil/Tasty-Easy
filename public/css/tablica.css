@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2019, 6:02:16 PM
+    Author     : Kamil
+*/
+
+
+
+table {
+    font-family: 'ABeeZee';
+
+
+    text-decoration: none;
+}
+#ft {
+    background-color:#4169E1;
+    color:black;
+    font-weight: bold;
+
+
+
+}
+
+#null {
+    border:none;
+
+}
+#but{
+    width:14.5%;
+    text-decoration: none;
+
+}
+#button{
+    text-decoration: none;
+}
+#del {
+    background-color: #8B0000; 
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+#order{
+    background-color: #006400; 
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+    cursor:pointer;
+}
+th, td {
+
+    padding: 8px;
+    text-align: left;
+    border:1px solid;
+    border-color:#ADD8E6;
+
+
+
+}
+
+tbody tr:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#del:hover {
+    opacity: 2;
+
+}
+#cancel:hover ,#aproove:hover {
+    opacity: 2;
+
+}
+
+#popup {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.8;
+    background-color: black;
+    z-index: 2;
+    cursor: pointer;
+}
+
+div #ad{
+    position:absolute;
+    top:35%;
+    left:43%;
+    font-size: 150%;
+    color: whitesmoke;
+    text-align: center;
+
+
+}
+
+#it {
+
+}
+#input {
+
+    background-position: 10px 12px;  
+    width: 25%; 
+    font-size: 16px; 
+
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+
+#priamry{
+
+
+    width: 25%; 
+    font-size: 16px; 
+
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+#priamry #us{
+
+    text-decoration: none;
+    font-size: 125%;
+}
+
+#cancel {
+    background-color: #8B0000; 
+    display: block;
+    float: left;
+    width: 10%;
+    height: 80px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+    cursor:pointer;
+    marign:auto;
+
+}
+#approve {
+    background-color: green; 
+    display: block;
+    position:relative;
+    left:11%;
+    width: 10%;
+    height: 80px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+    cursor:pointer;
+}
+#approve #button {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
